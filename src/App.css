@@ -23,6 +23,21 @@
   color: #61dafb;
 }
 
+.App-todo-button {
+  background-color: steelblue;
+  color: #fff;
+  padding: 10px;
+  border: 2;
+  font-size: 18px;
+  border-width: 0px;
+}
+
+.App-plus-icon {
+  font-weight: bold;
+  margin: 5px;
+  font-size: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

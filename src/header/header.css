@@ -1,0 +1,8 @@
+.Header-container {
+  flex: 1;
+  display: flex;
+  background-color: #275DAD;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}

@@ -1,0 +1,42 @@
+.ToDoList-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ToDoList-add-icon {
+  font-size: 80px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.ToDoList-grid {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ToDoList-data-container {
+  display: flex;
+  flex: 1;
+}
+
+
+.ToDoList-input {
+  padding: 5px;
+  font-size: 14px;
+  background: rgba(255, 255, 0, 0);
+  border: 0;
+  font-weight: bold;
+}
+
+.ToDoList-textarea {
+  max-width: 150px;
+  max-height: 150px;
+  background: rgba(255, 255, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}

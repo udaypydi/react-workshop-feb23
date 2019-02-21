@@ -1,17 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
+import ToDoList from './todoList/todoList.component';
+import Header from './header/header.component';
+
+import './App.css';
 
 function App(props) {
-
-  const [name, setName] = useState('React');
-
-  function handleUserNameChange(event) {
-    setName(event.target.value);
-  }
-
   return (
-    <div>
-      <h1>Welcome to {name} Workshop</h1>
-      <input type="text" value={name} onChange={handleUserNameChange}/>
+    <div className="App">
+      <Header />
+      <ToDoList />
     </div>
   );
 }
